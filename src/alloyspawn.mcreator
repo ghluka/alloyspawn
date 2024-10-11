@@ -1,0 +1,172 @@
+{
+  "mod_elements": [
+    {
+      "name": "LeadPoisoning",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_poisoning",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/potion/LeadPoisoningMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "KidneyFailureOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kidney_failure_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/procedures/KidneyFailureOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LeadPoisoningOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_poisoning_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/procedures/LeadPoisoningOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KidneyFailure",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kidney_failure",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/potion/KidneyFailureMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Lunchly",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunchly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alloyspawn/models/item/lunchly.json",
+          "src/main/java/io/github/ghluka/alloyspawn/item/LunchlyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Lunchly2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunchly_2",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/item/Lunchly2Item.java",
+          "src/main/resources/assets/alloyspawn/models/item/lunchly_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Lunchly3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunchly_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alloyspawn/models/item/lunchly_3.json",
+          "src/main/java/io/github/ghluka/alloyspawn/item/Lunchly3Item.java"
+        ]
+      }
+    },
+    {
+      "name": "InfluencerProducts",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "influencer_products",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LunchlyPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunchly_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/procedures/LunchlyPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.alloyspawn.lunchly_2": "Lunchly \"The Pizza\"",
+      "item_group.alloyspawn.influencer_products": "Influencer Products",
+      "item.alloyspawn.lunchly": "Lunchly Turkey Stack ‘ems",
+      "effect.alloyspawn.lead_poisoning": "Lead Poisoning",
+      "effect.alloyspawn.kidney_failure": "Kidney Failure",
+      "item.alloyspawn.lunchly_3": "Lunchly Fiesta Nachos"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "alloyspawn",
+    "modName": "AlloySpawn",
+    "version": "1.0.0",
+    "description": "All items and mobs featured in this mod are works of parody and satire intended as commentary on consumer culture and product safety concerns. They are not meant to be interpreted as factual claims about any real-world brands, companies, or persons. The effects depicted in the mod are purely fictional and for entertainment purposes only; they do not allege that any similar effects would occur in the real world. Any similarities to real-world brands or individuals are used for satirical purposes and are not meant to cause harm, defame, or mislead users.",
+    "author": "ghluka, MCreator",
+    "websiteURL": "https://ghluka.github.io/alloyspawn",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "created using MCreator",
+    "modElementsPackage": "io.github.ghluka.alloyspawn"
+  },
+  "mcreatorVersion": 202400340615
+}

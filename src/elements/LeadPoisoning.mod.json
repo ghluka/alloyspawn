@@ -1,0 +1,22 @@
+{
+  "_fv": 69,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Lead Poisoning",
+    "icon": "lead_poisoning",
+    "color": {
+      "value": -14606047,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": true,
+    "onActiveTick": {
+      "name": "LeadPoisoningOnEffectActiveTick"
+    }
+  }
+}
