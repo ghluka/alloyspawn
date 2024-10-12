@@ -26,7 +26,6 @@ public class AlloyspawnModTabs {
 				tabData.accept(AlloyspawnModItems.LUNCHLY.get());
 				tabData.accept(AlloyspawnModItems.LUNCHLY_2.get());
 				tabData.accept(AlloyspawnModItems.LUNCHLY_3.get());
-				tabData.accept(AlloyspawnModItems.MYSTERIOUS_GOOP.get());
 				tabData.accept(AlloyspawnModItems.PRIME.get());
 				tabData.accept(AlloyspawnModItems.PRIME_2.get());
 				tabData.accept(AlloyspawnModItems.PRIME_3.get());
@@ -51,6 +50,7 @@ public class AlloyspawnModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
+			tabData.accept(AlloyspawnModItems.MYSTERIOUS_GOOP.get());
 			tabData.accept(AlloyspawnModItems.ELECTROLYTES.get());
 
 		}
