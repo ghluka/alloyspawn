@@ -21,6 +21,15 @@ public class AlloyspawnModTabs {
 				tabData.accept(AlloyspawnModItems.LUNCHLY.get());
 				tabData.accept(AlloyspawnModItems.LUNCHLY_2.get());
 				tabData.accept(AlloyspawnModItems.LUNCHLY_3.get());
+				tabData.accept(AlloyspawnModItems.MYSTERIOUS_GOOP.get());
+				tabData.accept(AlloyspawnModItems.PRIME.get());
+				tabData.accept(AlloyspawnModItems.PRIME_2.get());
+				tabData.accept(AlloyspawnModItems.PRIME_3.get());
+				tabData.accept(AlloyspawnModItems.PRIME_4.get());
+				tabData.accept(AlloyspawnModItems.PRIME_5.get());
+				tabData.accept(AlloyspawnModItems.PRIME_6.get());
+				tabData.accept(AlloyspawnModItems.PRIME_7.get());
+				tabData.accept(AlloyspawnModItems.PRIME_8.get());
 			})
 
 					.build());

@@ -1,0 +1,30 @@
+{
+  "_fv": 69,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Microplastics",
+    "achievementDescription": "You may or may not die",
+    "achievementIcon": {
+      "value": "CUSTOM:MysteriousGoop"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "LunchlyRecipe",
+      "Lunchly2Recipe",
+      "Lunchly3Recipe",
+      "PrimeRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"item_consumed\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:MysteriousGoop</field></block></value></block></next></block></xml>"
+  }
+}

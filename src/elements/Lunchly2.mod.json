@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "This item is parody and does not allege that any similar effects would occur in the real world."
+      ]
     },
     "glowCondition": {
       "fixedValue": false

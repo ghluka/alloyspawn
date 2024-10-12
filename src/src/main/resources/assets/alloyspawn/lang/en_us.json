@@ -1,8 +1,19 @@
 {
-  "item.alloyspawn.lunchly_2": "Lunchly \"The Pizza\"",
   "item_group.alloyspawn.influencer_products": "Influencer Products",
+  "item.alloyspawn.prime": "Prime Tropical Punch",
+  "advancements.microplastics.descr": "You may or may not die",
+  "advancements.microplastics.title": "Microplastics",
+  "item.alloyspawn.prime_5": "Prime Strawberry Watermelon",
+  "item.alloyspawn.prime_6": "Prime Ice Pop",
+  "item.alloyspawn.prime_3": "Prime Lemonade",
+  "item.alloyspawn.prime_4": "Prime Lemon Lime",
+  "item.alloyspawn.prime_7": "Prime Cherry Freeze",
+  "item.alloyspawn.prime_8": "Prime Strawberry Banana",
+  "item.alloyspawn.lunchly_2": "Lunchly \"The Pizza\"",
+  "item.alloyspawn.prime_2": "Prime Blue Raspberry",
   "item.alloyspawn.lunchly": "Lunchly Turkey Stack ‘ems",
   "effect.alloyspawn.lead_poisoning": "Lead Poisoning",
   "effect.alloyspawn.kidney_failure": "Kidney Failure",
+  "item.alloyspawn.mysterious_goop": "Mysterious Goop",
   "item.alloyspawn.lunchly_3": "Lunchly Fiesta Nachos"
 }

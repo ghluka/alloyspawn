@@ -3,18 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "lunchly1",
+    "texture": "mysterious_goop",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Lunchly Turkey Stack ‘ems",
-    "rarity": "UNCOMMON",
+    "name": "Mysterious Goop",
+    "rarity": "RARE",
     "creativeTabs": [
       {
         "value": "CUSTOM:InfluencerProducts"
       }
     ],
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
@@ -23,14 +23,23 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "This item is parody and does not allege that any similar effects would occur in the real world."
+        "May or may not contain:",
+        " - Perfluoroalkyl substances",
+        " - Polyfluoroalkyl substances",
+        " - Bisphenol A",
+        " - Phthalates",
+        " - Titanium dioxide",
+        " - Artificial flavoring",
+        " - Artificial coloring",
+        " - Lead",
+        " - Mercury"
       ]
     },
     "glowCondition": {
@@ -40,7 +49,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "LunchlyPlayerFinishesUsingItem"
+      "name": "MysteriousGoopPlayerFinishesUsingItem"
     },
     "enableRanged": false,
     "shootConstantly": false,
@@ -50,10 +59,10 @@
     },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
     "eatResultItem": {
-      "value": ""
+      "value": "CUSTOM:MysteriousGoop"
     },
     "isMeat": false,
     "isAlwaysEdible": true,

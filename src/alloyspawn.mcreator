@@ -130,19 +130,350 @@
           }
         ]
       }
+    },
+    {
+      "name": "MysteriousGoop",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_goop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alloyspawn/models/item/mysterious_goop.json",
+          "src/main/java/io/github/ghluka/alloyspawn/item/MysteriousGoopItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MysteriousGoopRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_goop_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/mysterious_goop_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Microplastics",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microplastics",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/advancements/microplastics.json"
+        ]
+      }
+    },
+    {
+      "name": "MysteriousGoopPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_goop_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/procedures/MysteriousGoopPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LunchlyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunchly_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/lunchly_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Lunchly2Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunchly_2_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/lunchly_2_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Lunchly3Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunchly_3_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/lunchly_3_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Prime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alloyspawn/models/item/prime.json",
+          "src/main/java/io/github/ghluka/alloyspawn/item/PrimeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/prime_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PrimePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/procedures/PrimePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Prime2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alloyspawn/models/item/prime_2.json",
+          "src/main/java/io/github/ghluka/alloyspawn/item/Prime2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Prime3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_3",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/item/Prime3Item.java",
+          "src/main/resources/assets/alloyspawn/models/item/prime_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Prime4",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alloyspawn/models/item/prime_4.json",
+          "src/main/java/io/github/ghluka/alloyspawn/item/Prime4Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Prime5",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_5",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/item/Prime5Item.java",
+          "src/main/resources/assets/alloyspawn/models/item/prime_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Prime6",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_6",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/item/Prime6Item.java",
+          "src/main/resources/assets/alloyspawn/models/item/prime_6.json"
+        ]
+      }
+    },
+    {
+      "name": "Prime7",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alloyspawn/models/item/prime_7.json",
+          "src/main/java/io/github/ghluka/alloyspawn/item/Prime7Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Prime8",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_8",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/item/Prime8Item.java",
+          "src/main/resources/assets/alloyspawn/models/item/prime_8.json"
+        ]
+      }
+    },
+    {
+      "name": "Prime2Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_2_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/prime_2_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Prime3Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_3_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/prime_3_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Prime4Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_4_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/prime_4_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Prime5Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_5_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/prime_5_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Prime6Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_6_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/prime_6_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Prime7Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_7_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/prime_7_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Prime8Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prime_8_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/prime_8_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:mod:lunchly": [],
+    "ITEMS:mod:prime": [
+      "CUSTOM:Prime",
+      "CUSTOM:Prime2",
+      "CUSTOM:Prime3",
+      "CUSTOM:Prime4",
+      "CUSTOM:Prime5",
+      "CUSTOM:Prime6",
+      "CUSTOM:Prime7",
+      "CUSTOM:Prime8"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.alloyspawn.lunchly_2": "Lunchly \"The Pizza\"",
       "item_group.alloyspawn.influencer_products": "Influencer Products",
+      "item.alloyspawn.prime": "Prime Tropical Punch",
+      "advancements.microplastics.descr": "You may or may not die",
+      "advancements.microplastics.title": "Microplastics",
+      "item.alloyspawn.prime_5": "Prime Strawberry Watermelon",
+      "item.alloyspawn.prime_6": "Prime Ice Pop",
+      "item.alloyspawn.prime_3": "Prime Lemonade",
+      "item.alloyspawn.prime_4": "Prime Lemon Lime",
+      "item.alloyspawn.prime_7": "Prime Cherry Freeze",
+      "item.alloyspawn.prime_8": "Prime Strawberry Banana",
+      "item.alloyspawn.lunchly_2": "Lunchly \"The Pizza\"",
+      "item.alloyspawn.prime_2": "Prime Blue Raspberry",
       "item.alloyspawn.lunchly": "Lunchly Turkey Stack ‘ems",
       "effect.alloyspawn.lead_poisoning": "Lead Poisoning",
       "effect.alloyspawn.kidney_failure": "Kidney Failure",
+      "item.alloyspawn.mysterious_goop": "Mysterious Goop",
       "item.alloyspawn.lunchly_3": "Lunchly Fiesta Nachos"
     }
   },

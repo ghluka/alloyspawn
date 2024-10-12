@@ -1,0 +1,39 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "alloyspawn:mysterious_goop"
+    },
+    "title": {
+      "translate": "advancements.microplastics.title"
+    },
+    "description": {
+      "translate": "advancements.microplastics.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "microplastics_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "alloyspawn:mysterious_goop"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "alloyspawn:lunchly_recipe",
+      "alloyspawn:lunchly_2_recipe",
+      "alloyspawn:lunchly_3_recipe",
+      "alloyspawn:prime_recipe"
+    ]
+  }
+}

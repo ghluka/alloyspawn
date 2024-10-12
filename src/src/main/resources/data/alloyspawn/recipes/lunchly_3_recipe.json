@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "alloyspawn:prime"
+    },
+    {
+      "item": "alloyspawn:mysterious_goop"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "tag": "minecraft:dirt"
+    }
+  ],
+  "result": {
+    "item": "alloyspawn:lunchly_3",
+    "count": 1
+  }
+}

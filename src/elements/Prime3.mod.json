@@ -3,18 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "lunchly1",
+    "texture": "prime3",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Lunchly Turkey Stack ‘ems",
+    "name": "Prime Lemonade",
     "rarity": "UNCOMMON",
     "creativeTabs": [
       {
         "value": "CUSTOM:InfluencerProducts"
       }
     ],
-    "stackSize": 64,
+    "stackSize": 16,
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
@@ -39,9 +39,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onFinishUsingItem": {
-      "name": "LunchlyPlayerFinishesUsingItem"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
@@ -57,6 +54,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": true,
-    "animation": "eat"
+    "animation": "drink"
   }
 }
