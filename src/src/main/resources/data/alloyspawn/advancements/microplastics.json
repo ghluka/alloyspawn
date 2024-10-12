@@ -33,7 +33,24 @@
       "alloyspawn:lunchly_recipe",
       "alloyspawn:lunchly_2_recipe",
       "alloyspawn:lunchly_3_recipe",
-      "alloyspawn:prime_recipe"
+      "alloyspawn:prime_recipe",
+      "alloyspawn:prime_2_recipe",
+      "alloyspawn:prime_3_recipe",
+      "alloyspawn:prime_4_recipe",
+      "alloyspawn:prime_5_recipe",
+      "alloyspawn:prime_6_recipe",
+      "alloyspawn:prime_7_recipe",
+      "alloyspawn:prime_8_recipe",
+      "alloyspawn:electrolytes_recipe",
+      "alloyspawn:feastables_recipe",
+      "alloyspawn:mysterious_goop_recipe",
+      "alloyspawn:feastables_2_recipe",
+      "alloyspawn:feastables_3_recipe",
+      "alloyspawn:feastables_4_recipe",
+      "alloyspawn:feastables_5_recipe",
+      "alloyspawn:feastables_6_recipe",
+      "alloyspawn:feastables_7_recipe",
+      "alloyspawn:feastables_8_recipe"
     ]
   }
 }

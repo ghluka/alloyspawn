@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Microplastics",
-    "achievementDescription": "You may or may not die",
+    "achievementDescription": "They're in your testicles!",
     "achievementIcon": {
       "value": "CUSTOM:MysteriousGoop"
     },
@@ -17,7 +17,24 @@
       "LunchlyRecipe",
       "Lunchly2Recipe",
       "Lunchly3Recipe",
-      "PrimeRecipe"
+      "PrimeRecipe",
+      "Prime2Recipe",
+      "Prime3Recipe",
+      "Prime4Recipe",
+      "Prime5Recipe",
+      "Prime6Recipe",
+      "Prime7Recipe",
+      "Prime8Recipe",
+      "ElectrolytesRecipe",
+      "FeastablesRecipe",
+      "MysteriousGoopRecipe",
+      "Feastables2Recipe",
+      "Feastables3Recipe",
+      "Feastables4Recipe",
+      "Feastables5Recipe",
+      "Feastables6Recipe",
+      "Feastables7Recipe",
+      "Feastables8Recipe"
     ],
     "rewardFunction": "No function",
     "rewardXP": 0,
