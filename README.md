@@ -32,8 +32,12 @@ https://github.com/ghluka/alloyspawn/wiki/Crafting-Recipes
 - New ingredients!
   - Electrolytes
   - Mysterious Goop
+- New tools!
+  - Baby oil
 - New fluids!
   - Still water
 - New achievements!
   - Microplastics (eat Mysterious Goop)
   - Poor fella died of hungry (swim in still water)
+- New mobs!
+  - P Diddy boss

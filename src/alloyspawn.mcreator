@@ -889,6 +889,36 @@
         ]
       },
       "path": "~/Fluids"
+    },
+    {
+      "name": "Diddy",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diddy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alloyspawn/models/item/diddy_spawn_egg.json",
+          "src/main/java/io/github/ghluka/alloyspawn/entity/DiddyEntity.java",
+          "src/main/java/io/github/ghluka/alloyspawn/client/renderer/DiddyRenderer.java",
+          "src/main/resources/data/alloyspawn/forge/biome_modifier/diddy_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "BabyOil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_oil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alloyspawn/models/item/baby_oil.json",
+          "src/main/java/io/github/ghluka/alloyspawn/item/BabyOilItem.java"
+        ]
+      },
+      "path": "~/Ingredients"
     }
   ],
   "variable_elements": [],
@@ -900,6 +930,14 @@
       ],
       "category": "neutral",
       "subtitle": "Still water :skull:"
+    },
+    {
+      "name": "diddy_party",
+      "files": [
+        "diddy_party"
+      ],
+      "category": "voice",
+      "subtitle": "Diddy party"
     }
   ],
   "tag_elements": {
@@ -937,16 +975,19 @@
     "en_us": {
       "item.alloyspawn.prime": "Prime Tropical Punch",
       "advancements.amoeba.descr": "Step into still water and get infected by a brain eating amoeba.",
+      "entity.alloyspawn.diddy": "Diddy",
       "effect.alloyspawn.brain_eating_amoeba": "Brain Eating Amoeba",
       "advancements.amoeba.title": "Poor fella died of hungry",
       "item.alloyspawn.feastables": "Feastables Milk Chocolate",
       "fluid.alloyspawn.still_water": "Still Water",
       "item.alloyspawn.lunchly": "Lunchly Turkey Stack ‘ems",
       "effect.alloyspawn.lead_poisoning": "Lead Poisoning",
+      "item.alloyspawn.baby_oil": "Diddy\u0027s Baby Oil",
       "effect.alloyspawn.kidney_failure": "Kidney Failure",
       "item.alloyspawn.mysterious_goop": "Mysterious Goop",
       "subtitles.libets_delay": "Still water :skull:",
       "item_group.alloyspawn.influencer_products": "Influencer Products",
+      "subtitles.diddy_party": "Diddy party",
       "advancements.microplastics.descr": "They\u0027re in your testicles!",
       "item.alloyspawn.feastables_3": "Feastables Milk Crunch",
       "item.alloyspawn.feastables_2": "Feastables Peanut Butter",
@@ -958,6 +999,7 @@
       "item.alloyspawn.prime_6": "Prime Ice Pop",
       "item.alloyspawn.prime_3": "Prime Lemonade",
       "item.alloyspawn.prime_4": "Prime Lemon Lime",
+      "item.alloyspawn.diddy_spawn_egg": "Diddy Spawn Egg",
       "item_group.alloyspawn.brainrot": "Brainrot",
       "item.alloyspawn.prime_7": "Prime Cherry Freeze",
       "item.alloyspawn.prime_8": "Prime Strawberry Banana",
@@ -1026,6 +1068,10 @@
       },
       {
         "name": "Fluids",
+        "children": []
+      },
+      {
+        "name": "Mobs",
         "children": []
       }
     ]

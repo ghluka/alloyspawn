@@ -45,6 +45,8 @@ public class AlloyspawnModTabs {
 				tabData.accept(AlloyspawnModItems.MYSTERIOUS_GOOP.get());
 				tabData.accept(AlloyspawnModItems.ELECTROLYTES.get());
 				tabData.accept(AlloyspawnModItems.STILL_WATER_BUCKET.get());
+				tabData.accept(AlloyspawnModItems.DIDDY_SPAWN_EGG.get());
+				tabData.accept(AlloyspawnModItems.BABY_OIL.get());
 			})
 
 					.build());

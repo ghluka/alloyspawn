@@ -7,6 +7,7 @@ package io.github.ghluka.alloyspawn.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.item.Item;
 
@@ -32,6 +33,7 @@ import io.github.ghluka.alloyspawn.item.Feastables4Item;
 import io.github.ghluka.alloyspawn.item.Feastables3Item;
 import io.github.ghluka.alloyspawn.item.Feastables2Item;
 import io.github.ghluka.alloyspawn.item.ElectrolytesItem;
+import io.github.ghluka.alloyspawn.item.BabyOilItem;
 import io.github.ghluka.alloyspawn.AlloyspawnMod;
 
 public class AlloyspawnModItems {
@@ -58,6 +60,8 @@ public class AlloyspawnModItems {
 	public static final RegistryObject<Item> FEASTABLES_7 = REGISTRY.register("feastables_7", () -> new Feastables7Item());
 	public static final RegistryObject<Item> FEASTABLES_8 = REGISTRY.register("feastables_8", () -> new Feastables8Item());
 	public static final RegistryObject<Item> STILL_WATER_BUCKET = REGISTRY.register("still_water_bucket", () -> new StillWaterItem());
+	public static final RegistryObject<Item> DIDDY_SPAWN_EGG = REGISTRY.register("diddy_spawn_egg", () -> new ForgeSpawnEggItem(AlloyspawnModEntities.DIDDY, -9683928, -65361, new Item.Properties()));
+	public static final RegistryObject<Item> BABY_OIL = REGISTRY.register("baby_oil", () -> new BabyOilItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

@@ -16,4 +16,5 @@ import io.github.ghluka.alloyspawn.AlloyspawnMod;
 public class AlloyspawnModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, AlloyspawnMod.MODID);
 	public static final RegistryObject<SoundEvent> LIBETS_DELAY = REGISTRY.register("libets_delay", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("alloyspawn", "libets_delay")));
+	public static final RegistryObject<SoundEvent> DIDDY_PARTY = REGISTRY.register("diddy_party", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("alloyspawn", "diddy_party")));
 }

@@ -32,6 +32,7 @@ import io.github.ghluka.alloyspawn.init.AlloyspawnModMobEffects;
 import io.github.ghluka.alloyspawn.init.AlloyspawnModItems;
 import io.github.ghluka.alloyspawn.init.AlloyspawnModFluids;
 import io.github.ghluka.alloyspawn.init.AlloyspawnModFluidTypes;
+import io.github.ghluka.alloyspawn.init.AlloyspawnModEntities;
 import io.github.ghluka.alloyspawn.init.AlloyspawnModBlocks;
 
 @Mod("alloyspawn")
@@ -48,6 +49,7 @@ public class AlloyspawnMod {
 		AlloyspawnModBlocks.REGISTRY.register(bus);
 
 		AlloyspawnModItems.REGISTRY.register(bus);
+		AlloyspawnModEntities.REGISTRY.register(bus);
 
 		AlloyspawnModTabs.REGISTRY.register(bus);
 

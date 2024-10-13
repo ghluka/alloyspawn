@@ -7,5 +7,14 @@
         "stream": false
       }
     ]
+  },
+  "diddy_party": {
+    "subtitle": "subtitles.diddy_party",
+    "sounds": [
+      {
+        "name": "alloyspawn:diddy_party",
+        "stream": false
+      }
+    ]
   }
 }
