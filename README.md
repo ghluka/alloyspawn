@@ -5,8 +5,6 @@
 
 Not affiliated with OreSpawn.
 
-<img src="resources/logo.png" width="200">
-
 > [!IMPORTANT]  
 > All items and mobs featured in this mod are works of parody and satire intended as commentary on consumer culture and product safety concerns. They are not meant to be interpreted as factual claims about any real-world brands, companies, or persons. The effects depicted in the mod are purely fictional and for entertainment purposes only; they do not allege that any similar effects would occur in the real world.
 > 
@@ -26,6 +24,7 @@ https://github.com/ghluka/alloyspawn/wiki/Crafting-Recipes
   - Mercury poisoning
   - Lead poisoning
   - Kidney failure
+  - Brain Eating Amoeba
 - New food!
   - Prime
   - Feastables
@@ -36,4 +35,5 @@ https://github.com/ghluka/alloyspawn/wiki/Crafting-Recipes
 - New fluids!
   - Still water
 - New achievements!
-  - Microplastics
+  - Microplastics (eat Mysterious Goop)
+  - Poor fella died of hungry (swim in still water)
