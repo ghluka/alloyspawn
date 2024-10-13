@@ -13,6 +13,7 @@ import net.minecraft.world.effect.MobEffect;
 import io.github.ghluka.alloyspawn.potion.MercuryPoisoningMobEffect;
 import io.github.ghluka.alloyspawn.potion.LeadPoisoningMobEffect;
 import io.github.ghluka.alloyspawn.potion.KidneyFailureMobEffect;
+import io.github.ghluka.alloyspawn.potion.BrainEatingAmoebaMobEffect;
 import io.github.ghluka.alloyspawn.AlloyspawnMod;
 
 public class AlloyspawnModMobEffects {
@@ -20,4 +21,5 @@ public class AlloyspawnModMobEffects {
 	public static final RegistryObject<MobEffect> LEAD_POISONING = REGISTRY.register("lead_poisoning", () -> new LeadPoisoningMobEffect());
 	public static final RegistryObject<MobEffect> KIDNEY_FAILURE = REGISTRY.register("kidney_failure", () -> new KidneyFailureMobEffect());
 	public static final RegistryObject<MobEffect> MERCURY_POISONING = REGISTRY.register("mercury_poisoning", () -> new MercuryPoisoningMobEffect());
+	public static final RegistryObject<MobEffect> BRAIN_EATING_AMOEBA = REGISTRY.register("brain_eating_amoeba", () -> new BrainEatingAmoebaMobEffect());
 }

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "alloyspawn:still_water_bucket"
+    },
+    "title": {
+      "translate": "advancements.amoeba.title"
+    },
+    "description": {
+      "translate": "advancements.amoeba.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "amoeba_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

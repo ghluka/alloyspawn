@@ -80,7 +80,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/LunchlyItem.java"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Lunchly"
+      "path": "~/Foods/Lunchly"
     },
     {
       "name": "Lunchly2",
@@ -94,7 +94,7 @@
           "src/main/resources/assets/alloyspawn/models/item/lunchly_2.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Lunchly"
+      "path": "~/Foods/Lunchly"
     },
     {
       "name": "Lunchly3",
@@ -108,7 +108,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/Lunchly3Item.java"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Lunchly"
+      "path": "~/Foods/Lunchly"
     },
     {
       "name": "InfluencerProducts",
@@ -118,8 +118,7 @@
       "registry_name": "influencer_products",
       "metadata": {
         "files": []
-      },
-      "path": "~/InfluencerProducts"
+      }
     },
     {
       "name": "LunchlyPlayerFinishesUsingItem",
@@ -138,7 +137,7 @@
           }
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Lunchly"
+      "path": "~/Foods/Lunchly"
     },
     {
       "name": "MysteriousGoop",
@@ -152,7 +151,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/MysteriousGoopItem.java"
         ]
       },
-      "path": "~/InfluencerProducts/Ingredients"
+      "path": "~/Ingredients"
     },
     {
       "name": "MysteriousGoopRecipe",
@@ -165,7 +164,7 @@
           "src/main/resources/data/alloyspawn/recipes/mysterious_goop_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Ingredients/Recipes"
+      "path": "~/Ingredients/Recipes"
     },
     {
       "name": "Microplastics",
@@ -201,7 +200,7 @@
           }
         ]
       },
-      "path": "~/InfluencerProducts/Ingredients"
+      "path": "~/Ingredients"
     },
     {
       "name": "LunchlyRecipe",
@@ -214,7 +213,7 @@
           "src/main/resources/data/alloyspawn/recipes/lunchly_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Lunchly/Recipes"
+      "path": "~/Foods/Lunchly/Recipes"
     },
     {
       "name": "Lunchly2Recipe",
@@ -227,7 +226,7 @@
           "src/main/resources/data/alloyspawn/recipes/lunchly_2_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Lunchly/Recipes"
+      "path": "~/Foods/Lunchly/Recipes"
     },
     {
       "name": "Lunchly3Recipe",
@@ -240,7 +239,7 @@
           "src/main/resources/data/alloyspawn/recipes/lunchly_3_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Lunchly/Recipes"
+      "path": "~/Foods/Lunchly/Recipes"
     },
     {
       "name": "Prime",
@@ -254,7 +253,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/PrimeItem.java"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime"
+      "path": "~/Foods/Prime"
     },
     {
       "name": "PrimeRecipe",
@@ -267,7 +266,7 @@
           "src/main/resources/data/alloyspawn/recipes/prime_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime/Recipes"
+      "path": "~/Foods/Prime/Recipes"
     },
     {
       "name": "PrimePlayerFinishesUsingItem",
@@ -286,7 +285,7 @@
           }
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime"
+      "path": "~/Foods/Prime"
     },
     {
       "name": "Prime2",
@@ -300,7 +299,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/Prime2Item.java"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime"
+      "path": "~/Foods/Prime"
     },
     {
       "name": "Prime3",
@@ -314,7 +313,7 @@
           "src/main/resources/assets/alloyspawn/models/item/prime_3.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime"
+      "path": "~/Foods/Prime"
     },
     {
       "name": "Prime4",
@@ -328,7 +327,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/Prime4Item.java"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime"
+      "path": "~/Foods/Prime"
     },
     {
       "name": "Prime5",
@@ -342,7 +341,7 @@
           "src/main/resources/assets/alloyspawn/models/item/prime_5.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime"
+      "path": "~/Foods/Prime"
     },
     {
       "name": "Prime6",
@@ -356,7 +355,7 @@
           "src/main/resources/assets/alloyspawn/models/item/prime_6.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime"
+      "path": "~/Foods/Prime"
     },
     {
       "name": "Prime7",
@@ -370,7 +369,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/Prime7Item.java"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime"
+      "path": "~/Foods/Prime"
     },
     {
       "name": "Prime8",
@@ -384,7 +383,7 @@
           "src/main/resources/assets/alloyspawn/models/item/prime_8.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime"
+      "path": "~/Foods/Prime"
     },
     {
       "name": "Prime2Recipe",
@@ -397,7 +396,7 @@
           "src/main/resources/data/alloyspawn/recipes/prime_2_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime/Recipes"
+      "path": "~/Foods/Prime/Recipes"
     },
     {
       "name": "Prime3Recipe",
@@ -410,7 +409,7 @@
           "src/main/resources/data/alloyspawn/recipes/prime_3_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime/Recipes"
+      "path": "~/Foods/Prime/Recipes"
     },
     {
       "name": "Prime4Recipe",
@@ -423,7 +422,7 @@
           "src/main/resources/data/alloyspawn/recipes/prime_4_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime/Recipes"
+      "path": "~/Foods/Prime/Recipes"
     },
     {
       "name": "Prime5Recipe",
@@ -436,7 +435,7 @@
           "src/main/resources/data/alloyspawn/recipes/prime_5_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime/Recipes"
+      "path": "~/Foods/Prime/Recipes"
     },
     {
       "name": "Prime6Recipe",
@@ -449,7 +448,7 @@
           "src/main/resources/data/alloyspawn/recipes/prime_6_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime/Recipes"
+      "path": "~/Foods/Prime/Recipes"
     },
     {
       "name": "Prime7Recipe",
@@ -462,7 +461,7 @@
           "src/main/resources/data/alloyspawn/recipes/prime_7_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime/Recipes"
+      "path": "~/Foods/Prime/Recipes"
     },
     {
       "name": "Prime8Recipe",
@@ -475,7 +474,7 @@
           "src/main/resources/data/alloyspawn/recipes/prime_8_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Prime/Recipes"
+      "path": "~/Foods/Prime/Recipes"
     },
     {
       "name": "Electrolytes",
@@ -489,7 +488,7 @@
           "src/main/resources/assets/alloyspawn/models/item/electrolytes.json"
         ]
       },
-      "path": "~/InfluencerProducts/Ingredients"
+      "path": "~/Ingredients"
     },
     {
       "name": "ElectrolytesRecipe",
@@ -502,7 +501,7 @@
           "src/main/resources/data/alloyspawn/recipes/electrolytes_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Ingredients/Recipes"
+      "path": "~/Ingredients/Recipes"
     },
     {
       "name": "FeastablesPlayerFinishesUsingItem",
@@ -521,7 +520,7 @@
           }
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables"
+      "path": "~/Foods/Feastables"
     },
     {
       "name": "Feastables",
@@ -535,7 +534,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/FeastablesItem.java"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables"
+      "path": "~/Foods/Feastables"
     },
     {
       "name": "FeastablesRecipe",
@@ -548,7 +547,7 @@
           "src/main/resources/data/alloyspawn/recipes/feastables_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables/Recipes"
+      "path": "~/Foods/Feastables/Recipes"
     },
     {
       "name": "Feastables2",
@@ -562,7 +561,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/Feastables2Item.java"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables"
+      "path": "~/Foods/Feastables"
     },
     {
       "name": "Feastables3",
@@ -576,7 +575,7 @@
           "src/main/resources/assets/alloyspawn/models/item/feastables_3.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables"
+      "path": "~/Foods/Feastables"
     },
     {
       "name": "Feastables4",
@@ -590,7 +589,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/Feastables4Item.java"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables"
+      "path": "~/Foods/Feastables"
     },
     {
       "name": "Feastables5",
@@ -604,7 +603,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/Feastables5Item.java"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables"
+      "path": "~/Foods/Feastables"
     },
     {
       "name": "Feastables6",
@@ -618,7 +617,7 @@
           "src/main/resources/assets/alloyspawn/models/item/feastables_6.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables"
+      "path": "~/Foods/Feastables"
     },
     {
       "name": "Feastables7",
@@ -632,7 +631,7 @@
           "src/main/resources/assets/alloyspawn/models/item/feastables_7.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables"
+      "path": "~/Foods/Feastables"
     },
     {
       "name": "Feastables8",
@@ -646,7 +645,7 @@
           "src/main/java/io/github/ghluka/alloyspawn/item/Feastables8Item.java"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables"
+      "path": "~/Foods/Feastables"
     },
     {
       "name": "Feastables2Recipe",
@@ -659,7 +658,7 @@
           "src/main/resources/data/alloyspawn/recipes/feastables_2_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables/Recipes"
+      "path": "~/Foods/Feastables/Recipes"
     },
     {
       "name": "Feastables3Recipe",
@@ -672,7 +671,7 @@
           "src/main/resources/data/alloyspawn/recipes/feastables_3_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables/Recipes"
+      "path": "~/Foods/Feastables/Recipes"
     },
     {
       "name": "Feastables4Recipe",
@@ -685,7 +684,7 @@
           "src/main/resources/data/alloyspawn/recipes/feastables_4_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables/Recipes"
+      "path": "~/Foods/Feastables/Recipes"
     },
     {
       "name": "Feastables5Recipe",
@@ -698,7 +697,7 @@
           "src/main/resources/data/alloyspawn/recipes/feastables_5_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables/Recipes"
+      "path": "~/Foods/Feastables/Recipes"
     },
     {
       "name": "Feastables6Recipe",
@@ -711,7 +710,7 @@
           "src/main/resources/data/alloyspawn/recipes/feastables_6_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables/Recipes"
+      "path": "~/Foods/Feastables/Recipes"
     },
     {
       "name": "Feastables7Recipe",
@@ -724,7 +723,7 @@
           "src/main/resources/data/alloyspawn/recipes/feastables_7_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables/Recipes"
+      "path": "~/Foods/Feastables/Recipes"
     },
     {
       "name": "Feastables8Recipe",
@@ -737,7 +736,7 @@
           "src/main/resources/data/alloyspawn/recipes/feastables_8_recipe.json"
         ]
       },
-      "path": "~/InfluencerProducts/Foods/Feastables/Recipes"
+      "path": "~/Foods/Feastables/Recipes"
     },
     {
       "name": "MercuryPoisoning",
@@ -763,12 +762,150 @@
           "src/main/resources/data/alloyspawn/recipes/electrolytes_recipe_2.json"
         ]
       },
-      "path": "~/InfluencerProducts/Ingredients/Recipes"
+      "path": "~/Ingredients/Recipes"
+    },
+    {
+      "name": "StillWater",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "still_water",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/block/StillWaterBlock.java",
+          "src/main/java/io/github/ghluka/alloyspawn/fluid/StillWaterFluid.java",
+          "src/main/resources/assets/alloyspawn/models/item/still_water_bucket.json",
+          "src/main/resources/assets/alloyspawn/models/block/still_water.json",
+          "src/main/java/io/github/ghluka/alloyspawn/fluid/types/StillWaterFluidType.java",
+          "src/main/java/io/github/ghluka/alloyspawn/item/StillWaterItem.java",
+          "src/main/resources/assets/alloyspawn/blockstates/still_water.json"
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "Brainrot",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brainrot",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BrainEatingAmoeba",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brain_eating_amoeba",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/potion/BrainEatingAmoebaMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "BrainEatingAmoebaOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brain_eating_amoeba_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/procedures/BrainEatingAmoebaOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "StillWaterMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "still_water_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/ghluka/alloyspawn/procedures/StillWaterMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "Amoeba",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amoeba",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/advancements/amoeba.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "StillWaterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "still_water_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alloyspawn/recipes/still_water_recipe.json"
+        ]
+      },
+      "path": "~/Fluids"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "libets_delay",
+      "files": [
+        "libets_delay"
+      ],
+      "category": "neutral",
+      "subtitle": "Still water :skull:"
+    }
+  ],
   "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:StillWater"
+    ],
     "ITEMS:mod:lunchly": [
       "CUSTOM:Lunchly",
       "CUSTOM:Lunchly2",
@@ -799,22 +936,29 @@
   "language_map": {
     "en_us": {
       "item.alloyspawn.prime": "Prime Tropical Punch",
+      "advancements.amoeba.descr": "Step into still water and get infected by a brain eating amoeba.",
+      "effect.alloyspawn.brain_eating_amoeba": "Brain Eating Amoeba",
+      "advancements.amoeba.title": "Poor fella died of hungry",
       "item.alloyspawn.feastables": "Feastables Milk Chocolate",
+      "fluid.alloyspawn.still_water": "Still Water",
       "item.alloyspawn.lunchly": "Lunchly Turkey Stack ‘ems",
       "effect.alloyspawn.lead_poisoning": "Lead Poisoning",
       "effect.alloyspawn.kidney_failure": "Kidney Failure",
       "item.alloyspawn.mysterious_goop": "Mysterious Goop",
+      "subtitles.libets_delay": "Still water :skull:",
       "item_group.alloyspawn.influencer_products": "Influencer Products",
       "advancements.microplastics.descr": "They\u0027re in your testicles!",
       "item.alloyspawn.feastables_3": "Feastables Milk Crunch",
       "item.alloyspawn.feastables_2": "Feastables Peanut Butter",
       "item.alloyspawn.feastables_5": "Feastables Dark Chocolate",
+      "item.alloyspawn.still_water_bucket": "Still Water Bucket",
       "item.alloyspawn.feastables_4": "Feastables Peanut Butter Crunch",
       "advancements.microplastics.title": "Microplastics",
       "item.alloyspawn.prime_5": "Prime Strawberry Watermelon",
       "item.alloyspawn.prime_6": "Prime Ice Pop",
       "item.alloyspawn.prime_3": "Prime Lemonade",
       "item.alloyspawn.prime_4": "Prime Lemon Lime",
+      "item_group.alloyspawn.brainrot": "Brainrot",
       "item.alloyspawn.prime_7": "Prime Cherry Freeze",
       "item.alloyspawn.prime_8": "Prime Strawberry Banana",
       "item.alloyspawn.lunchly_2": "Lunchly \"The Pizza\"",
@@ -823,7 +967,8 @@
       "item.alloyspawn.feastables_7": "Feastables Dark Chocolate Sea Salt",
       "item.alloyspawn.feastables_6": "Feastables Almond",
       "item.alloyspawn.feastables_8": "Feastables Cookies \u0026 Creme",
-      "effect.alloyspawn.mercury_poisoning": "Lead Poisoning",
+      "effect.alloyspawn.mercury_poisoning": "Mercury Poisoning",
+      "block.alloyspawn.still_water": "Still Water",
       "item.alloyspawn.lunchly_3": "Lunchly Fiesta Nachos"
     }
   },
@@ -831,42 +976,36 @@
     "name": "~",
     "children": [
       {
-        "name": "InfluencerProducts",
+        "name": "Effects",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Foods",
         "children": [
           {
-            "name": "Foods",
+            "name": "Feastables",
             "children": [
               {
-                "name": "Feastables",
-                "children": [
-                  {
-                    "name": "Recipes",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Prime",
-                "children": [
-                  {
-                    "name": "Recipes",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Lunchly",
-                "children": [
-                  {
-                    "name": "Recipes",
-                    "children": []
-                  }
-                ]
+                "name": "Recipes",
+                "children": []
               }
             ]
           },
           {
-            "name": "Ingredients",
+            "name": "Prime",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Lunchly",
             "children": [
               {
                 "name": "Recipes",
@@ -877,11 +1016,16 @@
         ]
       },
       {
-        "name": "Effects",
-        "children": []
+        "name": "Ingredients",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
       },
       {
-        "name": "Advancements",
+        "name": "Fluids",
         "children": []
       }
     ]

@@ -27,8 +27,12 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import io.github.ghluka.alloyspawn.init.AlloyspawnModTabs;
+import io.github.ghluka.alloyspawn.init.AlloyspawnModSounds;
 import io.github.ghluka.alloyspawn.init.AlloyspawnModMobEffects;
 import io.github.ghluka.alloyspawn.init.AlloyspawnModItems;
+import io.github.ghluka.alloyspawn.init.AlloyspawnModFluids;
+import io.github.ghluka.alloyspawn.init.AlloyspawnModFluidTypes;
+import io.github.ghluka.alloyspawn.init.AlloyspawnModBlocks;
 
 @Mod("alloyspawn")
 public class AlloyspawnMod {
@@ -40,12 +44,17 @@ public class AlloyspawnMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		AlloyspawnModSounds.REGISTRY.register(bus);
+		AlloyspawnModBlocks.REGISTRY.register(bus);
 
 		AlloyspawnModItems.REGISTRY.register(bus);
 
 		AlloyspawnModTabs.REGISTRY.register(bus);
 
 		AlloyspawnModMobEffects.REGISTRY.register(bus);
+
+		AlloyspawnModFluids.REGISTRY.register(bus);
+		AlloyspawnModFluidTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

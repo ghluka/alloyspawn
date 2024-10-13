@@ -1,0 +1,11 @@
+{
+  "libets_delay": {
+    "subtitle": "subtitles.libets_delay",
+    "sounds": [
+      {
+        "name": "alloyspawn:libets_delay",
+        "stream": false
+      }
+    ]
+  }
+}

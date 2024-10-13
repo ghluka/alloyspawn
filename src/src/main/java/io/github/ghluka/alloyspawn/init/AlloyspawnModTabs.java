@@ -6,19 +6,14 @@ package io.github.ghluka.alloyspawn.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import io.github.ghluka.alloyspawn.AlloyspawnMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AlloyspawnModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AlloyspawnMod.MODID);
 	public static final RegistryObject<CreativeModeTab> INFLUENCER_PRODUCTS = REGISTRY.register("influencer_products",
@@ -45,14 +40,12 @@ public class AlloyspawnModTabs {
 			})
 
 					.build());
+	public static final RegistryObject<CreativeModeTab> BRAINROT = REGISTRY.register("brainrot",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alloyspawn.brainrot")).icon(() -> new ItemStack(AlloyspawnModItems.MYSTERIOUS_GOOP.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(AlloyspawnModItems.MYSTERIOUS_GOOP.get());
+				tabData.accept(AlloyspawnModItems.ELECTROLYTES.get());
+				tabData.accept(AlloyspawnModItems.STILL_WATER_BUCKET.get());
+			})
 
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-
-			tabData.accept(AlloyspawnModItems.MYSTERIOUS_GOOP.get());
-			tabData.accept(AlloyspawnModItems.ELECTROLYTES.get());
-
-		}
-	}
+					.build());
 }

@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import io.github.ghluka.alloyspawn.item.StillWaterItem;
 import io.github.ghluka.alloyspawn.item.PrimeItem;
 import io.github.ghluka.alloyspawn.item.Prime8Item;
 import io.github.ghluka.alloyspawn.item.Prime7Item;
@@ -56,6 +57,7 @@ public class AlloyspawnModItems {
 	public static final RegistryObject<Item> FEASTABLES_6 = REGISTRY.register("feastables_6", () -> new Feastables6Item());
 	public static final RegistryObject<Item> FEASTABLES_7 = REGISTRY.register("feastables_7", () -> new Feastables7Item());
 	public static final RegistryObject<Item> FEASTABLES_8 = REGISTRY.register("feastables_8", () -> new Feastables8Item());
+	public static final RegistryObject<Item> STILL_WATER_BUCKET = REGISTRY.register("still_water_bucket", () -> new StillWaterItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

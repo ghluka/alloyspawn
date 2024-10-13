@@ -6,12 +6,10 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.core.registries.Registries;
 
-public class KidneyFailureOnEffectActiveTickProcedure {
+public class BrainEatingAmoebaOnEffectActiveTickProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		double baseRate = 0;
-		double rateWithAmplifier = 0;
 		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)), 1);
 	}
 }

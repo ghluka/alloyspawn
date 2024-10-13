@@ -2,21 +2,21 @@
   "_fv": 69,
   "_type": "potioneffect",
   "definition": {
-    "effectName": "Mercury Poisoning",
-    "icon": "mercury_poisoning",
+    "effectName": "Brain Eating Amoeba",
+    "icon": "braineatingamoeba",
     "color": {
-      "value": -4736839,
+      "value": -1565608,
       "falpha": 0.0
     },
     "isInstant": false,
     "mobEffectCategory": "HARMFUL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
-    "isCuredByMilk": true,
+    "isCuredByMilk": false,
     "isProtectedByTotem": true,
-    "isCuredbyHoney": true,
+    "isCuredbyHoney": false,
     "onActiveTick": {
-      "name": "LeadPoisoningOnEffectActiveTick"
+      "name": "BrainEatingAmoebaOnEffectActiveTick"
     }
   }
 }
