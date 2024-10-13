@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url("/assets/img/background.png");
+    background-size: cover;
+}
+
+* {
+    font-family: Fira Mono;
+    color: #fff;
+}
+
+h1 {
+    color: #f00;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #f60;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: rgba(18, 16, 18);
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-family: Stoke;
+    font-size: 50px;
+    line-height: 1.1;
+    text-transform: none;
+    font-weight: 400;
+    padding: 10px 0;
+    color: #fff;
+}
+
+img.emoji {
+    width: 1em;
+    vertical-align: -.2em;
+}
+
+img {
+    pointer-events: none;
+}
+
+#body {
+    padding-left: 16px;
+}

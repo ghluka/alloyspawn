@@ -4,20 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AlloySpawn</title>
+    <link href="assets/css/index.css" rel="stylesheet">
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Stoke:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>welcome, website coming soooooon 👻</h1>
-    <p>happy (almost) halloween 🎃</p>
-    <img src="https://raw.githubusercontent.com/ghluka/alloyspawn/refs/heads/main/resources/logo.png" width="200">
+    <header>
+        <h1>AlloySpawn</h1>
+    </header>
+    <div id="body">
+        <h1>welcome, website coming soooooon 👻</h1>
+        <p>happy (almost) halloween 🎃</p>
+        <p>this website looks bad intentionally</p>
+        <img src="/assets/img/logo.png" width="200">
+        <p>we are in no way affiliated with OreSpawn</p>
 
-    <h2>downloads:</h2>
-    <ul>
-        <li><a href="https://modrinth.com/mod/alloyspawn">modrinth page</a></li>
-        <li><a href="https://github.com/ghluka/alloyspawn/releases">github</a></li>
-    </ul>
-    
-    <h2>important:</h2>
-    <p>All items and mobs featured in this mod are works of parody and satire intended as commentary on consumer culture and product safety concerns. They are not meant to be interpreted as factual claims about any real-world brands, companies, or persons. The effects depicted in the mod are purely fictional and for entertainment purposes only; they do not allege that any similar effects would occur in the real world.</p>
-    <p>This mod falls under fair use as a transformative work of parody and social commentary. Any similarities to real-world brands or individuals are used for satirical purposes and are not meant to cause harm, defame, or mislead users.</p>
+        <h2>downloads:</h2>
+        <ul>
+            <li><a href="https://modrinth.com/mod/alloyspawn"><img src="assets/img/modrinth.png" class="emoji"> modrinth page</a></li>
+            <li><a href="https://github.com/ghluka/alloyspawn/releases"><img src="assets/img/github-mark-white.png" class="emoji"> github</a></li>
+        </ul>
+
+        <h2>important:</h2>
+        <p>All items and mobs featured in this mod are works of parody and satire intended as commentary on consumer culture and product safety concerns. They are not meant to be  interpreted as factual claims about any real-world brands, companies, or persons. The effects depicted in the mod are purely fictional and for entertainment purposes only; they do  not allege that any similar effects would occur in the real world.</p>
+        <p>This mod falls under fair use as a transformative work of parody and social commentary. Any similarities to real-world brands or individuals are used for satirical purposes and     are not meant to cause harm, defame, or mislead users.</p>
+        <script>
+            window.onload = function() {
+                twemoji.parse(document.body,
+                    {
+                        folder: 'svg',
+                        ext: '.svg',
+                        base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/'
+                    }
+                );
+            }
+        </script>
+    </div>
 </body>
 </html>
