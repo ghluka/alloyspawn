@@ -11,18 +11,28 @@ html, body {
 * {
     font-family: Fira Mono;
     color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a, h1, h2 {
+    font-family: Yanone Kaffeesatz;
+    text-transform: uppercase;
 }
 
 h1 {
     color: #f00;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size: 43px;
 }
 
 h2 {
     color: #f60;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+a {
+    font-size: 18px;
 }
 
 header {
@@ -41,9 +51,16 @@ header h1 {
     color: #fff;
 }
 
-img.emoji {
-    width: 1em;
-    vertical-align: -.2em;
+img.twemoji {
+    height: 1em;
+    width: auto;
+    display: inline-block;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+
+h2 img.twemoji {
+    height: 2em;
 }
 
 img {
@@ -52,4 +69,34 @@ img {
 
 #body {
     padding-left: 16px;
+}
+
+.download {
+    width: 50%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(132, 132, 132);
+}
+
+.download * {
+    font-size: 30px;
+    display: block;
+    line-height: 1.7;
+}
+
+.download img {
+    display: inline;
+}
+
+.tabs {
+    text-align: center;
+    padding: 0;
+}
+
+.tabs * {
+    padding: 20px 13px;
+    text-decoration: none;
+    color: #fff;
 }

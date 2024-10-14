@@ -1,0 +1,67 @@
+.slot {
+    background-image: url("../img/slot.png");
+    background-size: cover;
+    margin: 0;
+    padding: 6px;
+    width: 57px;
+    height: 57px;
+}
+
+.pixel-art {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.crafting-grid {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 210px;
+}
+
+.crafting {
+    display: flex;
+    align-items: center;
+}
+
+.crafting .slot {
+    display: inline;
+    width: 57px;
+}
+
+.crafting .slot * {
+    display: inline-block;
+    width: 57px;
+}
+
+.arrow {
+    padding: 0 16px;
+}
+
+.recipes {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.amount {
+    font-size: 24px;
+    position: relative;
+    z-index: 150;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    line-height: 4em;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+span.slot {
+    display: grid!important;
+}
