@@ -13,11 +13,9 @@ Not affiliated with OreSpawn.
 ## 📥 Download
 Visit our [website](https://ghluka.github.io/alloyspawn) for all our download links!
 
-## ⚒️ Crafting recipes
+## ⚒️ Wiki
 
-All crafting recipes are available in our wiki:
-
-https://github.com/ghluka/alloyspawn/wiki/Crafting-Recipes
+Visit our wiki, available on [our website](https://ghluka.github.io/alloyspawn/wiki).
 
 ## 😱 Features
 - New effects!
