@@ -15,7 +15,7 @@ import io.github.ghluka.alloyspawn.init.AlloyspawnModBlocks;
 
 public abstract class StillWaterFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> AlloyspawnModFluidTypes.STILL_WATER_TYPE.get(), () -> AlloyspawnModFluids.STILL_WATER.get(), () -> AlloyspawnModFluids.FLOWING_STILL_WATER.get())
-			.explosionResistance(100f).bucket(() -> AlloyspawnModItems.STILL_WATER_BUCKET.get()).block(() -> (LiquidBlock) AlloyspawnModBlocks.STILL_WATER.get());
+			.explosionResistance(100f).levelDecreasePerBlock(2).bucket(() -> AlloyspawnModItems.STILL_WATER_BUCKET.get()).block(() -> (LiquidBlock) AlloyspawnModBlocks.STILL_WATER.get());
 
 	private StillWaterFluid() {
 		super(PROPERTIES);

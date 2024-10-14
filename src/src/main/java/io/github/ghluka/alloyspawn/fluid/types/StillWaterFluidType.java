@@ -10,7 +10,7 @@ import net.minecraft.world.level.BlockAndTintGetter;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.BiomeColors;
 
 import java.util.function.Consumer;
 
@@ -23,7 +23,7 @@ public class StillWaterFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("minecraft:block/water_still"), FLOWING_TEXTURE = new ResourceLocation("minecraft:block/water_still");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("alloyspawn:block/still_water_still"), FLOWING_TEXTURE = new ResourceLocation("alloyspawn:block/still_water_still");
 
 			@Override
 			public ResourceLocation getStillTexture() {
@@ -37,12 +37,12 @@ public class StillWaterFluidType extends FluidType {
 
 			@Override
 			public int getTintColor() {
-				return -16448205;
+				return -13083194;
 			}
 
 			@Override
 			public int getTintColor(FluidState state, BlockAndTintGetter world, BlockPos pos) {
-				return Minecraft.getInstance().level.getBiome(pos).value().getWaterFogColor() | 0xFF000000;
+				return BiomeColors.getAverageWaterColor(world, pos) | 0xFF000000;
 			}
 		});
 	}

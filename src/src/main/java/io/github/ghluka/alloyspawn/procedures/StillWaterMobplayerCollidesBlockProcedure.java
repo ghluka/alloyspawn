@@ -31,19 +31,14 @@ public class StillWaterMobplayerCollidesBlockProcedure {
 		}
 		if (!(entity instanceof LivingEntity _livEnt1 && _livEnt1.hasEffect(AlloyspawnModMobEffects.BRAIN_EATING_AMOEBA.get()))) {
 			if (entity instanceof Player) {
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(AlloyspawnModMobEffects.BRAIN_EATING_AMOEBA.get(), -1, 0));
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("alloyspawn:libets_delay")), SoundSource.NEUTRAL, 1, 1);
 					} else {
 						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("alloyspawn:libets_delay")), SoundSource.NEUTRAL, 1, 1, false);
 					}
-				}
-			}
-			if (world instanceof Level _level) {
-				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.underwater.enter")), SoundSource.NEUTRAL, 5, 1);
-				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.underwater.enter")), SoundSource.NEUTRAL, 5, 1, false);
 				}
 			}
 		}

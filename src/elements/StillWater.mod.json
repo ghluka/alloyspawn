@@ -4,12 +4,12 @@
   "definition": {
     "name": "Still Water",
     "bucketName": "Still Water Bucket",
-    "textureStill": "minecraft:water_still",
-    "textureFlowing": "minecraft:water_still",
-    "tintType": "Water fog",
+    "textureStill": "still_water_still",
+    "textureFlowing": "still_water_still",
+    "tintType": "Water",
     "canMultiply": false,
     "flowRate": 5,
-    "levelDecrease": 1,
+    "levelDecrease": 2,
     "slopeFindDistance": 4,
     "spawnParticles": false,
     "dripParticle": {
