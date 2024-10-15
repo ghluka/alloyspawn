@@ -42,17 +42,23 @@
     padding: 0 16px;
 }
 
-.recipes {
+.box {
     display: flex;
     align-items: center;
     gap: 24px;
     flex-wrap: wrap;
 }
 
+.box > div {
+    width: 390px;
+    height: 252px;
+    background-color: rgba(18, 16, 18);;
+    padding: 0 24px 16px;
+}
+
 .amount {
     font-size: 24px;
     position: relative;
-    z-index: 150;
     height: 0;
     margin: 0;
     padding: 0;
@@ -60,8 +66,34 @@
     line-height: 4em;
     color: #fff;
     text-shadow: 2px 2px #000;
+    font-family: VT323;
 }
 
 span.slot {
     display: grid!important;
+}
+
+
+h1 {
+    color: #f0f;
+    font-size: 43px;
+}
+
+h2 {
+    color: #f00;
+    font-size: 34px;
+}
+
+h3 {
+    color: #ff0;
+    font-size: 28px;
+    font-family: Yanone Kaffeesatz;
+    text-transform: uppercase;
+}
+
+.box h3 {
+    font-family: VT323;
+    color: #f60;
+    font-size: 22px;
+    margin: 12px 2px;
 }
